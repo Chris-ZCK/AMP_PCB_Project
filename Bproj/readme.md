@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-31 23:00:52
- * @LastEditTime: 2020-06-15 10:41:23
+ * @LastEditTime: 2020-06-15 18:31:44
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \undefinedd:\项目\动物监测2019N\硬件\01 PCB绘制\AMP_PCB_Project\Bproj\readme.md
@@ -30,12 +30,25 @@ B版本也是为了结项为设计的。
 
 ## 绘制过程
 
-1. sch基本确认完成，有如下改变：
+1.sch基本确认完成，有如下改变：
 
 * 加入有源晶振。
-* 加入测试点。
+* 加入电源测试点。
 * 优化了元器件封装，尽可能符合“嘉立创”的标准。
-* 重命名不放呢引脚
-* 移出冗余部分，保留核心功能
+* 重命名部分引脚-ref："/doc/Camera7nd pin define.xlsx"/。
+* 电源部分的逻辑关系-ref:"/doc/Power_map.xmind"。
+* 移出冗余部分，保留核心功能。
+* 将所有元器件库保存至本地库，并确认乐所有的封装。
+* 编译通过无错误。
+* 尽可能使用防反插接插件。
+* 优化了所有的3D元器件库。
+* 串口部分可以使用MicroUSB连接电脑。
+
+2.冗余部分
+
+* 实时时钟晶振部分。
+* 多了一个串口6。
+* 多了ADC采集部分。
+* 多一个IIC接口。
 
 ## 材料购买
