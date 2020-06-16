@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-31 23:00:52
- * @LastEditTime: 2020-06-15 18:31:44
+ * @LastEditTime: 2020-06-16 17:06:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \undefinedd:\项目\动物监测2019N\硬件\01 PCB绘制\AMP_PCB_Project\Bproj\readme.md
@@ -50,5 +50,10 @@ B版本也是为了结项为设计的。
 * 多了一个串口6。
 * 多了ADC采集部分。
 * 多一个IIC接口。
+
+3.库文件
+移除了正点原子库和嘉立创的库，用到的部分直接移动到了私有库。
+
+4.pcb绘制
 
 ## 材料购买
