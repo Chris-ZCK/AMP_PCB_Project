@@ -242,7 +242,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UIGVNPOI
 
 [Document13]
-DocumentPath=PcbDoc\Board.PcbDoc
+DocumentPath=PcbDoc\Board2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -256,7 +256,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BHWYKHKN
+DocumentUniqueId=LTCJCIWC
 
 [Configuration1]
 Name=Sources
