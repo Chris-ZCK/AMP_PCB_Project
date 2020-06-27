@@ -258,6 +258,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LTCJCIWC
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CameraController\Design Rule Check - Board2.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
