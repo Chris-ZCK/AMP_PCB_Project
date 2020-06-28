@@ -1,7 +1,13 @@
 Protel Design System Design Rule Check
 PCB File : D:\项目\动物监测2019N\硬件\01 PCB绘制\AMP_PCB_Project\Bproj\PcbDoc\Board2.PcbDoc
 Date     : 2020/6/28
-Time     : 17:25:17
+Time     : 18:31:24
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: GND_L01_P020 On Top Layer
+   Polygon named: MP1584_L01_SPACE On Top Layer
+   Polygon named: GND_L02_P022 On Top Layer
+   Polygon named: MP1584_L02_GND On Top Layer
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
 Rule Violations :0
@@ -13,7 +19,11 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
-Rule Violations :0
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (GND_L01_P020) on Top Layer 
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (GND_L02_P022) on Bottom Layer 
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (MP1584_L01_SPACE) on Top Layer 
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (MP1584_L02_GND) on Bottom Layer 
+Rule Violations :4
 
 Processing Rule : Width Constraint (Min=0.127mm) (Max=1.27mm) (Preferred=0.254mm) (All)
 Rule Violations :0
@@ -79,6 +89,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 36
+Violations Detected : 40
 Waived Violations : 0
 Time Elapsed        : 00:00:01
